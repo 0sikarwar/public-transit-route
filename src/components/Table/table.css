@@ -1,0 +1,29 @@
+table.data-table {
+  border: 1px solid #000000;
+  background-color: #FFFFFF;
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+table.data-table td,
+table.data-table th {
+  border: 1px solid #AAAAAA;
+  padding: 3px 2px;
+}
+
+table.data-table tbody td {
+  font-size: 13px;
+  color: #333333;
+}
+
+table.data-table tr:nth-child(even) {
+  background: #e7eff5;
+}
+
+table.data-table thead th {
+  font-size: 15px;
+  font-weight: bold;
+  color: #000000;
+  text-align: center;
+}

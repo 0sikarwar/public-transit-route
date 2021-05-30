@@ -1,0 +1,61 @@
+.form-input {
+  min-width: 150px;
+  padding: 8px;
+  margin-top: 5px;
+  border: 0.2px #706f6f solid;
+  border-radius: 3px;
+}
+
+.l-dropdown .form-input {
+  width: 312px;
+}
+
+.l-dropdown .select-checkboxes {
+  width: 300px;
+}
+
+.input-field-container {
+  padding: 5px;
+  margin-bottom: 5px;
+  position: relative;
+}
+
+.selectBox {
+  position: relative;
+}
+
+.selectBox.active .form-input {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom: 0;
+}
+
+.overSelect {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.select-label {
+  display: block;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.select-label:hover,
+.select-label.active {
+  background-color: #1e90ff;
+}
+
+.select-checkboxes {
+  position: absolute;
+  min-width: 138px;
+  border: 0.2px #706f6f solid;
+  background-color: #fff;
+  box-shadow: 0 2px 3px rgb(10 10 10 / 10%), 0 0 0 1px rgb(10 10 10 / 10%);
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  padding: 5px;
+}
